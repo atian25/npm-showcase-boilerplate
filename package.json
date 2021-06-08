@@ -1,7 +1,10 @@
 {
-  "name": "create-npm-showcase",
+  "name": "@npm-showcase/create-boilerplate",
   "version": "1.0.0",
-  "description": "boilerplate for npm-showcase",
+  "description": "boilerplate for npm-showcase, use `npm init @npm-showcase/boilerplate`",
+  "repository": "git@github.com:atian25/npm-showcase-boilerplate.git",
+  "homepage": "https://github.com/atian25/npm-showcase-boilerplate",
+  "author": "TZ <atian25@qq.com> (https://github.com/atian25)",
   "dependencies": {
   },
   "devDependencies": {
@@ -11,9 +14,10 @@
     "eslint": "^7",
     "eslint-config-egg": "^9"
   },
-  "engines": {
-    "node": ">=10.0.0"
-  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "autod": "autod",
     "lint": "eslint .",
@@ -27,15 +31,9 @@
     "version": "12, 14",
     "type": "github"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "files": [
-    "lib",
-    "index.js"
+  "eslintIgnore": [
+    "coverage",
+    "dist"
   ],
-  "author": "TZ <atian25@qq.com> (https://github.com/atian25)",
   "license": "MIT"
 }
